@@ -13,4 +13,5 @@ def validAnagram(self, s: str, t: str) -> bool:
         for count in hashS:
             if hashS[count] != hashT.get(count, 0):
                 return False     
-        return True
+        return 
+        # wgit

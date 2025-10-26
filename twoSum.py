@@ -1,5 +1,5 @@
 def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # create hashmap
+        # create hashmap: num:index
         hashMap = {}
         # itr ovr nums
         for i,n in enumerate(nums):
@@ -8,3 +8,4 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
                 return [hashMap[diff], i]
             hashMap[n] = i #if no match, make an entry in hashMap
         return
+        # wgit
